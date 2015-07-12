@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Quiz Game</title>
+<!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+     <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.4/jquery-ui.theme.css">
+<link rel="stylesheet" type="text/css" href="/jquery-ui-1.11.4/jquery-ui.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+	body { 
+	height:100%;
+ 	background: url("http://mahindradsqi.com/media/content_admin/img/Background-Vector.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+	}
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      td 
+{
+    height: 30px; 
+    width:120px;
+    border:2px solid #000000;
+    text-align:center; 
+    vertical-align:middle;
+    background-color:#E5FFCC;
+    color:#233157;
+}
+      .container {
+        width: auto;
+        max-width: 680px;
+        border:2px solid;
+        padding: 10px;
+        border-top-right-radius: 2em;
+        border-top-left-radius: 2em;
+    	border-bottom-right-radius: 2em;
+   		border-bottom-left-radius:2em;
+      }
+      .tablecontainer {
+      	min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -60px;
+      	
+        width: auto;
+        max-width: 680px;
+        padding: 10px;
+        text-align:justify;
+      }
+      .table{
+       border:2px solid #000000;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+	.centered-text{
+		text-align:center;
+	}
+	img.imagelogo{
+    position: absolute;
+    top:11%;
+    left:77%;
+    display: inline; 
+}
+    </style>
+  </head>
+
+  <body>
+  <img src="http://www.choosetothinq.com/wp-content/uploads/2015/01/choose-to-think-logo-Final-a-e1421739637895.png" class="imagelogo"></img>
+	<br />
+	<div id="dialog"></div>
+    <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Begin page content -->
+      <div class="container" id="cont">
+        <div class="page-header">
+          <h1>Question #<span id="no"></span></h1>
+          <h5 id="curdate" class="centered-text"></h5>
+        </div>
+        <form autocomplete="off" method="POST" id="submitques"> 
+        <p class="lead" id="ques"></p>
+       	<p class="lead" id="opt1"></p>
+       	<p class="lead" id="opt2"></p>
+       	<p class="lead" id="opt3"></p>
+       	<p class="lead" id="opt4"></p>
+       	<div id="submitbtn"></div>
+       	<div id="msg" class="centered-text" style="color:blue"></div>
+       	</form>
+      </div>
+<div class="tablecontainer" id="tablecontent">
+<h4 class="centered-text"><b>Top Players and Thier Scores</b></h4>
+<table border="3" class="table"><thead style="border:2px solid #000000;"><tr class="info"><td><b>Rank</b></td><td><b>Player</td><td><b>Total Score</b></td><td><b>Games Played</b></td><td><b>Average Score</b></td><td><b>Country</b></td></thead></tr><tbody id="contable">
+	</tbody>
+	</table>
+       	</div>
+    </div>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script src="http://localhost/quizchoose.js"></script>
+  </body>
+</html>
+

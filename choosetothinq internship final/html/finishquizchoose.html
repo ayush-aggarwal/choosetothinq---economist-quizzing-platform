@@ -1,0 +1,70 @@
+<html>
+<head>
+<!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+     <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+body { 
+  background: url("http://mahindradsqi.com/media/content_admin/img/Background-Vector.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img.imagelogo{
+    position: absolute;
+    margin:5%;
+    display: inline; 
+}	
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 200%;
+	position:absolute;
+	top:20%;
+	left: 35%;
+}	
+.omb_score{
+	text-align: center;
+	line-height: 300%;
+	position:absolute;
+	top:50%;
+	left: 35%;
+}		
+</style>
+<title>Finish Quiz</title>
+</head>
+<body>
+<img src="http://www.choosetothinq.com/wp-content/uploads/2015/01/choose-to-think-logo-Final-a-e1421739637895.png" class="imagelogo"></img>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+<div class="container">
+    <div class="omb_login">
+    	<h3 class="omb_authTitle">Thank You for taking the Quiz !!</h3>
+	</div>
+	<div class="omb_score">
+		<h4>Your Score For this quiz is:- <span id="score"></span></h4>
+	</div>
+	<button class="btn btn-lg btn-primary" style="position:absolute;top:60%;left:40%;" type="submit" id="back">Go Back to Profile</button>
+	<button class="btn btn-lg btn-primary" style="position:absolute;top:60%;left:60%;" type="submit" id="logout">Logout</button>
+        </div>
+<script src="http://localhost/finishquizchoose.js"></script>
+</body>
+</html>

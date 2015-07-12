@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<gameques id="1">
+		<question>The Twitter campaign #unitedfortahera was mounted in support of a Muslim passenger on a United Airlines flight whose request for ______ was denied due to company guidelines aimed at deterring terrorism.</question>
+		<option1>a USB cable</option1>
+		<option2>an in-flight seat change</option2>
+		<option3>an unopened can of soda</option3>
+		<option4>a metal knife</option4>
+		<answer>an unopened can of soda</answer>
+	</gameques>
+	<gameques id="2">
+		<question>Republican presidential candidates are rejecting ______, American education standards introduced in 2010 to set national benchmarks for the skills students should have by certain grades. Forty five states and the District of Columbia have adopted the standards.</question>
+		<option1>Head Start</option1>
+		<option2>No Child Left Behind</option2>
+		<option3>the Common Core</option3>
+		<option4>the Montessori method</option4>
+		<answer>the Common Core</answer>
+	</gameques>
+	<gameques id="3">
+		<question>After 17 years, the president of FIFA, football's governing body, resigned amid allegations of corruption. _____ had just won re-election on May 29th.</question>
+		<option1>Chuck Blazer</option1>
+		<option2>Jack Warner</option2>
+		<option3>Jerome Valcke</option3>
+		<option4>Sepp Blatter</option4>
+		<answer>Sepp Blatter</answer>
+	</gameques>
+	<gameques id="4">
+		<question>The Italian city of ____ hosted its tenth annual celebration of economics. Nobel-prize-winner Joseph Stiglitz and Thomas Piketty, author of "Capital in the Twenty-First Century", were speakers this year.</question>
+		<option1>Taranto</option1>
+		<option2>Tivoli</option2>
+		<option3>Trento</option3>
+		<option4>Turin</option4>
+		<answer>Trento</answer>
+	</gameques>
+	<gameques id="5">
+		<question>After years of cost-cutting under its old owners, ____ is experiencing a period of expansion under Jeff Bezos who bought the paper in 2013. Insiders are banking on Amazon bundling the paper into its Prime subscription.</question>
+		<option1>The Boston Globe</option1>
+		<option2>Chicago Tribune</option2>
+		<option3>Los Angeles Times</option3>
+		<option4>The Washington Post</option4>
+		<answer>The Washington Post</answer>
+	</gameques>
+	<gameques id="6">
+		<question>Just ahead of mid-term elections scheduled for June 7th, the Mexican government backtracked on a constitutional reform approved by Congress in 2013 mandating _____.</question>
+		<option1>examinations of teachers</option1>
+		<option2>oil-sector liberalisation</option2>
+		<option3>term limits for senators</option3>
+		<option4>taxes on junk food and sugary drinks</option4>
+		<answer>examinations of teachers</answer>
+	</gameques>
+	<gameques id="7">
+		<question>Following two disasters in 2014, _____ is now "technically" bankrupt, according to Christoph Mueller, its new boss.</question>
+		<option1>AirAsia</option1>
+		<option2>Malaysia Airlines</option2>
+		<option3>Singapore Airlines</option3>
+		<option4>TransAsia Airways</option4>
+		<answer>Malaysia Airlines</answer>
+	</gameques>
+	<gameques id="8">
+		<question>The African Development Bank (AfDB), the biggest financier of infrastructure in Africa, appointed _____ as its new president.</question>
+		<option1>Cape Verde's Cristina Duarte</option1>
+		<option2>Nigeria's Akinwumi Adesina</option2>
+		<option3>Rwanda's Donald Kaberuka</option3>
+		<option4>Zimbabwe's Thomas Sakala</option4>
+		<answer>Nigeria's Akinwumi Adesina</answer>
+	</gameques>
+	<gameques id="9">
+		<question>When _____ amended its adoption law in 2012, it was intended to reduce unregistered adoptions of children overseas. But the law, which requires that births be registered with the government, has led to an increase in abandoned babies.</question>
+		<option1>China</option1>
+		<option2>Romania</option2>
+		<option3>Russia</option3>
+		<option4>South Korea</option4>
+		<answer>South Korea</answer>
+	</gameques>
+</quiz>
